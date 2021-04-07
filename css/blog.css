@@ -2,7 +2,18 @@
 
 .blog-container {
     margin: 0;
-    padding: 30px;
+    padding: 100px;
+}
+
+.blogs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-col{
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-container .blog-contents {
@@ -13,18 +24,20 @@
 }
 
 .blog-container .blog-contents .blog-1 {
-    margin: 0;
-    padding: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 18px;
     width: 730px;
-    height: 560px;
+    height: 585px;
     border: 1px solid grey;
 
 }
 
 .blog-container .blog-contents .blog-2 {
-    margin: 0;
+    margin-top: 20px;
+    margin-right: 20px;
     padding: 25px;
-    width: 521px;
+    width: 100%;
     height: 282px;
     border: 1px solid grey;
     

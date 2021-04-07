@@ -2,7 +2,8 @@
 
 .service-container {
     margin: 0;
-    padding: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Services heading*/
@@ -10,6 +11,7 @@
 
 
 .service-heading {
+    padding-left: 100px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -40,7 +42,7 @@
 
 .service-description {
     margin: 0;
-    padding-top: 60px;  
+    padding: 60px;  
 }
 
 .service-content {
@@ -65,8 +67,8 @@
 
 .service-content .icons .icon-a, .icon-b, .icon-c, .icon-d h4 {
     padding: 30px;
-    width: 340px;
-    height: 220px;
+    width: 225px;
+    height: 250px;
     font-size: 26px; 
     font-family: 'Roboto';
     font-weight: bold;
@@ -74,38 +76,46 @@
     background: #C4C4C4;
 }
 
-.service-content .icons .icon-a, .icon-b, .icon-c, .icon-d h4 {
+.service-content .icons   p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 15px;
     line-height: 29px;
 }
 
 .service-content .icons .icon-a {
     display: flex;
     flex-wrap: wrap;
+    margin:50px;
+    margin-top: 90px;
 }
 .service-content .icons .icon-b {
     display: flex;
     flex-wrap: wrap;
+    margin:20px;
 }
 
 .service-content .icons .icon-c {
-    margin-left: 0px;
+    margin-left:50px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .service-content .icons .icon-d {
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .service-content .service-details {
-    margin: 0;
+    margin: 0px;
+    padding: 100px;
     position: relative;
-    left: 120px;
+   
 }
 .service-content .service-details h4 {
     position: absolute;
@@ -120,9 +130,9 @@
 
 .service-content .service-details p {
     position: absolute;
-    width: 532px;
-    height: 66px;
-    top: 140px;
+    width: 432px;
+    height: 70px;
+    top: 220px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -134,7 +144,7 @@
     position: absolute;
     width: 228px;
     height: 71px;
-    top: 250px;
+    top: 335px;
     border-radius: 15px;
 }
 
