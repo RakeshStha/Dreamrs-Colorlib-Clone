@@ -23,6 +23,11 @@ footer{
     height: 230px;
 }
 
+.foot-a {
+    flex: 1;
+}
+
+
 .footer-container h3 {
     width: 276px;
     height: 75px;
@@ -118,6 +123,7 @@ footer .paperplane .buttons {
 footer .copyright {
     margin: 0px;
 }
+
 
 footer .copyright-text {
     text-align: center;

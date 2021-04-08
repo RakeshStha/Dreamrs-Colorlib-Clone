@@ -8,17 +8,20 @@
 .blogs {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
 .blog-col{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .blog-container .blog-contents {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding-top: 50px;
 }
@@ -30,6 +33,7 @@
     width: 730px;
     height: 585px;
     border: 1px solid grey;
+ 
 
 }
 
@@ -40,6 +44,7 @@
     width: 100%;
     height: 282px;
     border: 1px solid grey;
+   
     
 }
 

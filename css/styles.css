@@ -11,6 +11,10 @@
     --blog: #F2F2F2;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .container{
     clear:both;
     overflow:auto;

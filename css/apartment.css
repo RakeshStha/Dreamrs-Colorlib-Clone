@@ -46,6 +46,7 @@
 }
 
 .photo-row {
+    
     display: flex;
     flex-direction: column;
 }
@@ -56,25 +57,30 @@
     position: relative;
     display: flex;
     flex-direction: row;
+   
 }
 
 
-.luxuries-container .gallery .photo-a { 
+.luxuries-container .gallery .photo-a {
+    flex: 1; 
     width: 787px;
     height: 301px; 
 }
 
 .luxuries-container .gallery .photo-b {
+    flex: 1;
     width: 414px;
     height: 350px;
 }
 
 .luxuries-container .gallery .photo-c {
+    flex: 1;
     width: 373px;
     height: 349px;
 }
 
 .luxuries-container .gallery .photo-d {
+    flex: 1;
     width: 646px;
     height: 651px;
     
